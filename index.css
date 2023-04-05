@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+
+/* container styling */
+
+.container {
+    display: flex;
+    align-content: center;
+    /* height: 60vh; */
+    width: 40vw;
+    margin: auto;
+    box-shadow: 10px 10px 5px 12px #e8eefb;
+}
+
+
+/* box1 styling */
+
+.box1 {
+    background-color: #5f3efd;
+    border-radius: 10px;
+    text-align: center;
+    padding: auto;
+    /* height: 60vh; */
+    width: 20vw;
+    color: white;
+}
+
+.text1 h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.circle {
+    margin: auto;
+    background: linear-gradient(to bottom, rgba(73, 37, 207, 255), rgba(71, 50, 237, 255));
+    /* height: 150px;
+    width: 150px; */
+    clip-path: circle(32.9% at 50% 50%);
+    border-radius: 50%;
+    padding: 3rem;
+}
+
+.circle h1 {
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 0;
+}
+
+.text2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.description {
+    margin: 1.5rem;
+}
+
+.description p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text2 h2 {
+    margin: 10px;
+}
+
+
+/* box2 styling */
+
+.box2 {
+    background-color: rgba(255, 255, 255, 255);
+    /* height: 60vh; */
+    width: 20vw;
+    align-items: center;
+    padding: 20px;
+    border-radius: 1px;
+}
+
+.box2 div {
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: azure; */
+    margin: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sum1 p,
+.sum2 p,
+.sum3 p,
+.sum4 p {
+    padding-left: 10px;
+}
+
+.sum1 span,
+.sum2 span {
+    padding-left: 90px;
+}
+
+.sum3 span,
+.sum4 span {
+    padding-left: 105px;
+}
+
+button {
+    width: 18vw;
+    padding: 5%;
+    /* width: 90%; */
+    padding: 5%;
+    /* padding-bottom: 5%;
+    width: 42vh;
+    height: 5vh;
+    margin: 4px;*/
+    color: white;
+    background: rgb(48, 58, 88, 255);
+    border-radius: 20px;
+    margin-top: 25px;
+    border: none;
+}
+
+.sum1 {
+    background-color: rgba(254, 246, 244, 255);
+}
+
+.sum2 {
+    background-color: #fefaf2;
+}
+
+.sum3 {
+    background-color: #f3fbfb;
+}
+
+.sum4 {
+    background-color: #f3f3fd;
+}
